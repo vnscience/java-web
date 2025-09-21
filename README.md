@@ -34,4 +34,4 @@ Repo này giúp cài đặt **Java JDK 21** nhanh chóng cho sinh viên CNTT, ch
 
 ## 📖 Tài liệu hướng dẫn chi tiết
 
-Xem file PDF trong thư mục [docs/setup-guide.pdf](./docs/setup-guide.pdf).
+Xem file PDF trong thư mục [JDK21_Setup_Guide.pdf](./JDK21_Setup_Guide.pdf).
