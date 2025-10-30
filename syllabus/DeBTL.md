@@ -1,18 +1,27 @@
-### Yêu Cầu Kỹ Thuật Chung (Bắt buộc cho mọi đề tài)
+## Yêu Cầu Chung & Quy Định Nộp Bài
 
-1.  **Backend (Spring Boot):**
-    * **Kiến trúc 3 lớp:** Phân tách rõ ràng code thành 3 tầng: `Controller`, `Service`, và `Repository`.
-    * **Spring Data JPA:** Sử dụng `JpaRepository` để giao tiếp với CSDL (MySQL).
-    * **Models (Entity):** Phải có **ít nhất 2 model** có mối quan hệ **One-to-Many** (Một-Nhiều) hoặc **Many-to-One** (Nhiều-Một). Ví dụ: `Category` và `Product`.
-2.  **Frontend (Thymeleaf):**
-    * Sử dụng Thymeleaf để render dữ liệu và xử lý form.
-    * Phải sử dụng các thuộc tính `th:each`, `th:object`, `th:field`, `th:href`, `th:if`.
-    * Giao diện phải được **CSS** gọn gàng, sạch sẽ, dễ sử dụng.
-3.  **Chức năng cốt lõi:**
-    * Phải hoàn thành đầy đủ các chức năng **CRUD (Create, Read, Update, Delete)** cho cả hai model.
-4.  **Cơ sở dữ liệu:**
-    * Sử dụng MySQL (hoặc CSDL quan hệ tương đương).
-    * Sinh viên phải trình bày được CSDL và giải thích các mối quan hệ giữa các bảng.
+* **Hình thức:** Làm việc theo nhóm.
+* **Mỗi nhóm:** **2 sinh viên / nhóm**.
+* **Công nghệ bắt buộc:**
+    * **Backend:** Spring Boot, Spring Data JPA.
+    * **Frontend:** Thymeleaf + HTML/CSS.
+    * **Database:** MySQL (hoặc CSDL quan hệ tương đương).
+* **Yêu cầu chức năng tối thiểu:**
+    * Phải có **ít nhất 2 Model (Entity)** có mối quan hệ **One-to-Many** (ví dụ: Lớp học và Sinh viên).
+    * Phải hoàn thành đầy đủ chức năng **CRUD (Thêm, Đọc, Sửa, Xóa)** cho cả hai model.
+    * Tổ chức code theo kiến trúc 3 lớp rõ ràng (`Controller`, `Service`, `Repository`).
+* **Sản phẩm nộp:**
+    1.  **Mã nguồn (Source Code):** Toàn bộ dự án Spring Boot (nén dưới dạng `.zip`).
+    2.  **File SQL:** File `.sql` chứa CSDL và dữ liệu mẫu (nếu có).
+* **Hình thức nộp:** Nộp qua Google Form do giảng viên cung cấp. Chỉ cần 1 thành viên đại diện nhóm nộp bài.
+
+---
+
+## Thời Gian Thực Hiện
+
+* **Thời gian làm bài:** **2 tuần**.
+* **Deadline nộp bài:** **23:59, Thứ Bảy, ngày 16 tháng 11 năm 2025**.
+* **Hình thức báo cáo:** Các nhóm sẽ demo trực tiếp (chạy localhost) và trình bày vào buổi học tiếp theo (sẽ được thông báo cụ thể).
 
 ---
 
