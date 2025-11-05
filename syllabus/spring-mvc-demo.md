@@ -15,7 +15,7 @@ Trước tiên, cần cài Plugin NB SpringBoot cho Netbeans tại: [https://plu
 
 * **Group**: `com.example`
 * **Artifact**: `student-management`
-* **Package name**: `com.example.studentmanagement`
+* **Package name**: `com.example.qlsv`
 * **Packaging**: `Jar`
 * **Java version**: 17 (hoặc 21 nếu có sẵn).
 
@@ -35,7 +35,7 @@ Sau đó nhấn **Finish** → NetBeans sẽ tự động tải về project m�
 
 ```
 student-management/
- ├── src/main/java/com/example/studentmanagement/
+ ├── src/main/java/com/example/qlsv/
  │     ├── controller/
  │     │      └── StudentController.java
  │     ├── model/
@@ -43,7 +43,7 @@ student-management/
  │     ├── service/
  │     │      ├── StudentService.java
  │     │      └── StudentDAOImpl.java
- │     └── StudentManagementApplication.java
+ │     └── qlsvApplication.java
  ├── src/main/resources/
  │     ├── templates/
  │     │      ├── students.html
@@ -61,7 +61,7 @@ student-management/
 ### 🔸 Model – `Student.java`
 
 ```java
-package com.example.studentmanagement.model;
+package com.example.qlsv.model;
 
 public class Student {
     private Long id;
@@ -97,10 +97,10 @@ public class Student {
 **StudentDAOImpl.java**
 
 ```java
-package com.example.studentmanagement.service;
+package com.example.qlsv.service;
 import java.util.*;
 import org.springframework.stereotype.Repository;
-import com.example.studentmanagement.model.Student;
+import com.example.qlsv.model.Student;
 
 @Repository
 public class StudentDAOImpl {
@@ -141,11 +141,11 @@ public class StudentDAOImpl {
 **StudentService.java**
 
 ```java
-package com.example.studentmanagement.service;
+package com.example.qlsv.service;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.studentmanagement.model.Student;
+import com.example.qlsv.model.Student;
 
 @Service
 public class StudentService {
@@ -165,9 +165,9 @@ public class StudentService {
 ### 🔸 Controller – `StudentController.java`
 
 ```java
-package com.example.studentmanagement.controller;
-import com.example.studentmanagement.model.Student;
-import com.example.studentmanagement.service.StudentService;
+package com.example.qlsv.controller;
+import com.example.qlsv.model.Student;
+import com.example.qlsv.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
