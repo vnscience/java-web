@@ -3,6 +3,7 @@
 Xây dựng và chạy ứng dụng quản lý sinh viên (CRUD: Create, Read, Update, Delete) với **Spring Boot + Spring MVC + Thymeleaf** trên **NetBeans**.
 
 ---
+Trước tiên, cần cài Plugin NB SpringBoot cho Netbeans tại: [https://plugins.netbeans.apache.org/catalogue/?id=4](https://plugins.netbeans.apache.org/catalogue/?id=4)
 
 ## ⚙️ 1. Tạo Project Spring Boot trong NetBeans
 
